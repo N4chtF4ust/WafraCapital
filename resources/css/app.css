@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 
 @import 'tw-animate-css';
 
@@ -12,6 +13,19 @@
         'Instrument Sans', ui-sans-serif, system-ui, sans-serif,
         'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
         'Noto Color Emoji';
+
+    /* Mobres brand palette — #c52126 primary red */
+    --color-red-50:  #ffecec;
+    --color-red-100: #fdd5d5;
+    --color-red-200: #faaaa9;
+    --color-red-300: #f47070;
+    --color-red-400: #e63946;
+    --color-red-500: #d42b2f;
+    --color-red-600: #c52126;
+    --color-red-700: #8b1519;
+    --color-red-800: #5e0e10;
+    --color-red-900: #360809;
+    --color-red-950: #1c0304;
 
     --radius-lg: var(--radius);
     --radius-md: calc(var(--radius) - 2px);
